@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+}
+.header{
+    background-image: url("/assets/img/bokeh_car_lights_bg.jpg");
+}
+
+li {
+    display: inline-block;
+}
+
+nav.Nav {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+
+}
+
+.HeadInHeader {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.Tools_Bar_ul {
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+li.Tools_bar {
+    margin-right: 25px;
+    color: white;
+
+}
+a.Tools_bar_a{
+    color: white;
+    text-decoration: none;
+}
+
+h2.Head2InHeader {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 130px;
+    color: white;
+
+}
+.Tools_bar_btn{
+    margin: 15px 15px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    color:black;
+}
+.Tools_bar_sign{
+    background-color: white;
+    text-decoration: none;
+}
+
+p.PInHeader{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -15px;
+    color: white;
+}
+.btn{
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 23px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+.blue{
+    background-color: #55acee;
+}
+.blue:hover{
+    background-color: #6FC6FF;
+    transition-duration: 1s;
+}
+#buttons{
+    text-align: center;
+}
