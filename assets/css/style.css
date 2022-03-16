@@ -1,8 +1,14 @@
-*{
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+* {
     margin: auto;
 }
-.header{
-    background-image: url("/assets/img/bokeh_car_lights_bg.jpg");
+body{
+    font-family: "Raleway";
+}
+
+.header {
+    background-image: url("/assets/img/dark_tint.png"),url("/assets/img/bokeh_car_lights_bg.jpg");
 }
 
 li {
@@ -11,33 +17,41 @@ li {
 
 nav.Nav {
     position: absolute;
-    right: 50px;
-    top: 15px;
+    right: 0%;
+    top: 2%;
 
 }
 
 .HeadInHeader {
     text-decoration: none;
     font-size: 20px;
-    color: white;
     position: relative;
-    top: 20px;
-    left: 40px;
+    top: 25px;
+    left: 45px;
+    color: white;
 }
 
 .Tools_Bar_ul {
     margin-top: 10px;
     margin-right: 2px;
+    color: white;
 }
 
 li.Tools_bar {
-    margin-right: 25px;
+    margin-right: 32px;
+    margin-top: 5px;
     color: white;
 
 }
-a.Tools_bar_a{
-    color: white;
+
+a.Tools_bar_a {
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+}
+
+a.Tools_bar_a:hover {
+    color: snow;
+    transition: color 0.3s ease-in-out;
 }
 
 h2.Head2InHeader {
@@ -47,24 +61,28 @@ h2.Head2InHeader {
     color: white;
 
 }
-.Tools_bar_btn{
+
+.Tools_bar_btn {
     margin: 15px 15px;
-    padding: 10px 15px;
+    padding: 8px 17px;
     border-radius: 35px;
-    color:black;
+    color: black;
+    position: relative;
 }
-.Tools_bar_sign{
+
+.Tools_bar_sign {
     background-color: white;
     text-decoration: none;
 }
 
-p.PInHeader{
+p.PInHeader {
     text-align: center;
     font-size: 25px;
     margin-top: -15px;
     color: white;
 }
-.btn{
+
+.btn {
     border-radius: 30px;
     padding: 15px 30px;
     font-size: 23px;
@@ -73,13 +91,17 @@ p.PInHeader{
     position: relative;
     display: inline-block;
 }
-.blue{
+
+.blue {
     background-color: #55acee;
 }
-.blue:hover{
+
+.blue:hover {
     background-color: #6FC6FF;
     transition-duration: 1s;
 }
-#buttons{
+
+#buttons {
     text-align: center;
 }
+a.btn{margin-bottom: 250px}
