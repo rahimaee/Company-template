@@ -34,7 +34,7 @@ nav.Nav {
     color: white;
 }
 .HeadInHeader:hover{
-    text-decoration: underline goldenrod;
+    text-decoration: underline aqua;
 }
 
 .Tools_Bar_ul {
@@ -114,5 +114,5 @@ p.PInHeader {
 }
 
 a.btn {
-    margin-bottom: 250px
+    margin-bottom: 200px
 }
