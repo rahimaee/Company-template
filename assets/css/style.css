@@ -120,6 +120,7 @@ a.btn {
 
 div.Facilities {
     background-color: #F5F5F5;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
 }
 
 .First_h2 {
@@ -138,13 +139,13 @@ div.Facilities {
 }
 
 .Boxes {
-    padding: 90px;
-    margin: -70px;
+    padding: 50px;
+
 }
 
 .Box_1 {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 380px;
     background-color: white;
     float: left;
     border: solid rgba(144, 144, 144, 0.25);
@@ -152,20 +153,104 @@ div.Facilities {
 }
 
 .Box_2 {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 380px;
     background-color: white;
     border: solid rgba(144, 144, 144, 0.25);
     border-radius: 4px;
 }
 
 .Box_3 {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 380px;
     background-color: white;
     float: right;
     position: relative;
-    bottom: 306px;
+    bottom: 383px;
     border: solid rgba(144, 144, 144, 0.25);
     border-radius: 4px;
+}
+
+img.icon_1 {
+    width: 125px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+img.icon_2 {
+    width: 130px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+img.icon_3 {
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+h3.Head_In_Box1 {
+    color: #858585;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3.Head_In_Box2 {
+    color: #858585;
+    text-align: center;
+    margin-top: 10px;
+    width: 100px;
+    line-height: 20px;
+}
+
+h3.Head_In_Box3 {
+    color: #858585;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p.P_In_1 {
+    text-align: center;
+    color: #474747;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    width: 200px;
+}
+
+p.P_In_2 {
+    text-align: center;
+    color: #474747;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    width: 250px;
+}
+
+p.P_In_3 {
+    text-align: center;
+    color: #474747;
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 23px;
+    width: 230px;
+}
+
+.Head_In_Our_Team {
+    color: #474747;
+    margin-top: 70px;
+    font-size: 45px;
+    position: absolute;
+    left: 320px;
+}
+
+.P_In_Our_Team {
+    color: #858585;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    left: 200px;
+    margin-top: 135px;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    padding-bottom: 70px;
 }
