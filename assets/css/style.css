@@ -11,7 +11,7 @@ body {
 
 .header {
     background-image: url("/assets/img/dark_tint.png"), url("/assets/img/bokeh_car_lights_bg.jpg");
-    background-size:1023px ;
+    background-size: 1023px;
 }
 
 li {
@@ -33,7 +33,8 @@ nav.Nav {
     left: 45px;
     color: white;
 }
-.HeadInHeader:hover{
+
+.HeadInHeader:hover {
     text-decoration: underline aqua;
 }
 
@@ -115,4 +116,56 @@ p.PInHeader {
 
 a.btn {
     margin-bottom: 200px
+}
+
+div.Facilities {
+    background-color: #F5F5F5;
+}
+
+.First_h2 {
+    padding-top: 50px;
+    color: #474747;
+    text-align: center;
+    font-size: 42px;
+}
+
+.First_p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #858585;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Boxes {
+    padding: 90px;
+    margin: -70px;
+}
+
+.Box_1 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    border: solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+}
+
+.Box_2 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+}
+
+.Box_3 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 306px;
+    border: solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
 }
