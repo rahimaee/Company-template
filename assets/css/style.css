@@ -241,7 +241,7 @@ p.P_In_3 {
     margin-top: 70px;
     font-size: 45px;
     position: absolute;
-    left: 320px;
+    left: 300px;
 }
 
 .P_In_Our_Team {
@@ -251,6 +251,156 @@ p.P_In_3 {
     position: absolute;
     left: 200px;
     margin-top: 135px;
-    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
     padding-bottom: 70px;
+}
+
+.members {
+    padding-top: 150px;
+    position: absolute;
+    left: 50px;
+}
+
+.Img1 {
+    position: absolute;
+    left: 0px;
+    bottom: 150px;
+    border-radius: 50px;
+}
+
+.Img2 {
+    position: absolute;
+    left: 235px;
+    bottom: 150px;
+    border-radius: 50px;
+
+}
+
+.Img3 {
+    position: absolute;
+    left: 465px;
+    bottom: 150px;
+    border-radius: 50px;
+}
+
+.Img4 {
+    position: absolute;
+    left: 725px;
+    bottom: 150px;
+    border-radius: 50px;
+}
+
+.Head_Img_1 {
+    color: #525252;
+    position: absolute;
+    left: 105px;
+    bottom: 210px;
+    width: 150px;
+
+}
+
+.Head_Img_2 {
+    color: #525252;
+    position: absolute;
+    left: 345px;
+    bottom: 210px;
+    width: 150px;
+
+
+}
+
+.Head_Img_3 {
+    color: #525252;
+    position: absolute;
+    left: 565px;
+    bottom: 210px;
+    width: 150px;
+}
+
+.Head_Img_4 {
+    color: #525252;
+    position: absolute;
+    left: 825px;
+    bottom: 210px;
+    width: 150px;
+
+}
+
+.P_Img_1 {
+    color: #858585;
+    position: absolute;
+    left: 105px;
+    bottom: 170px;
+    width: 130px;
+    line-height: 20px;
+
+
+}
+
+.P_Img_2 {
+    color: #858585;
+    position: absolute;
+    left: 345px;
+    bottom: 170px;
+    width: 130px;
+    line-height: 20px;
+}
+
+.P_Img_3 {
+    color: #858585;
+    position: absolute;
+    left: 565px;
+    bottom: 170px;
+    width: 130px;
+    line-height: 20px;
+
+}
+
+.P_Img_4 {
+    color: #858585;
+    position: absolute;
+    left: 825px;
+    bottom: 170px;
+    width: 130px;
+    line-height: 20px;
+}
+.last{
+    position: absolute;
+    padding-bottom: 20px;
+
+}
+.LastP{
+    top: 75px;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    padding: 25px;
+}
+.LastBtn{
+    top: 120px;
+    position: relative;
+    left: 370px;
+
+}
+.hr2{
+    width: 85%;
+    top:40px;
+    left: 10px;
+    position: relative;
+
+}
+.hr1{
+    width: 85%;
+    left: 10px;
+    bottom: 120px;
+    position: relative;
+
+}
+.contact{
+    background-color: #6FC6FF;
+    position: absolute;
+
+}
+form{
+    position: relative;
+    top: 150px;
 }
