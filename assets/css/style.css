@@ -14,7 +14,7 @@ body {
     background-size: 1023px;
 }
 
-li {
+li.Tools_bar {
     display: inline-block;
 }
 
@@ -380,7 +380,7 @@ p.P_In_3 {
 .LastBtn {
     top: 120px;
     position: relative;
-    left: 370px;
+    left: 380px;
 
 }
 
@@ -458,7 +458,7 @@ textarea {
     position: relative;
     top: 120px;
     right: 200px;
-    color: #858585 ;
+    color: #858585;
 
 
 }
@@ -470,7 +470,7 @@ button {
     bottom: 20px;
     height: 65px;
     background-color: #383b43;
-    border-radius: 45px ;
+    border-radius: 45px;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -479,6 +479,114 @@ button {
 }
 
 button:hover {
-    background-color: rgba(101,107,122,1);
+    background-color: rgba(101, 107, 122, 1);
     transition: background-color 0.3s ease-in-out;
+}
+
+div.ListLink {
+    position: relative;
+    padding-left: 100%;
+    padding-top: 370px;
+    background-color: #383b43;
+}
+
+ul.ul1 {
+    list-style: none;
+
+    position: absolute;
+    left: 25px;
+    width: 215px;
+    top: 115px;
+    line-height: 50px;
+}
+
+ul.ul2 {
+    list-style: none;
+    position: absolute;
+    left: 262px;
+    width: 215px;
+    top: 115px;
+    line-height: 50px;
+
+}
+
+ul.ul3 {
+    list-style: none;
+    position: absolute;
+    left: 499px;
+    width: 215px;
+    top: 115px;
+    line-height: 50px;
+
+}
+
+ul.ul4 {
+    list-style: none;
+    position: absolute;
+    left: 736px;
+    width: 215px;
+    top: 115px;
+    line-height: 50px;
+
+}
+
+p.p1 {
+
+    color: #cdced0;
+    position: absolute;
+    left: 63px;
+    top: 70px;
+    width: 215px;
+    font-size: 22px;
+}
+
+p.p2 {
+    color: #cdced0;
+    position: absolute;
+    left: 302px;
+    top: 70px;
+    font-size: 22px;
+}
+
+p.p3 {
+    color: #cdced0;
+    position: absolute;
+    left: 539px;
+    top: 70px;
+    font-size: 22px;
+}
+
+p.p4 {
+    color: #cdced0;
+    position: absolute;
+    left: 775px;
+    top: 70px;
+    font-size: 22px;
+}
+
+li.LiList {
+    text-decoration: none;
+}
+
+a.AList {
+    color: #cdced0;
+}
+
+hr.hr3 {
+    width: 95%;
+    position: relative;
+    bottom: 35px;
+}
+div.copyright{
+    position: relative;
+    bottom: 30px;
+}
+p.P_In_copyright {
+    text-align: center;
+    color: #cdced0;
+
+}
+
+span.copy {
+    color: #6FC6FF;
 }
