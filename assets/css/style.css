@@ -486,7 +486,7 @@ button:hover {
 div.ListLink {
     position: relative;
     padding-left: 100%;
-    padding-top: 370px;
+    padding-top: 400px;
     background-color: #383b43;
 }
 
@@ -575,12 +575,14 @@ a.AList {
 hr.hr3 {
     width: 95%;
     position: relative;
-    bottom: 35px;
+    bottom: 75px;
 }
-div.copyright{
+
+div.copyright {
     position: relative;
-    bottom: 30px;
+    bottom: 64px;
 }
+
 p.P_In_copyright {
     text-align: center;
     color: #cdced0;
@@ -589,4 +591,59 @@ p.P_In_copyright {
 
 span.copy {
     color: #6FC6FF;
+}
+
+ul.LinkUl {
+    list-style: none;
+    margin-left: 390px;
+    margin-top: -87px;
+}
+
+img.LinkImg1 {
+    width: 40px;
+
+}
+
+img.LinkImg2 {
+    width: 34px;
+
+}
+
+img.LinkImg3 {
+    width: 55px;
+
+}
+
+img.LinkImg4 {
+    width: 40px;
+}
+
+li.LinkLi1 {
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    top: 10px;
+
+}
+
+li.LinkLi2 {
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    top: 10px;
+}
+
+li.LinkLi3 {
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    top: 10px;
+
+}
+
+li.LinkLi4 {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+
 }
